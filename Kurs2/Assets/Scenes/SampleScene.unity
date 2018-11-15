@@ -113,30 +113,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &35582389 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1438770238629988, guid: 695c1c5e2f584364a8e2f7ae31261e98,
-    type: 2}
-  m_PrefabInternal: {fileID: 1106420720}
---- !u!114 &35582390
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 35582389}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ac1fc92ca9725b646862baa348f11d1b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 8
-  angularSpeed: 4
-  rotation_speed: 0
-  speed_barrel: 0
-  bullet: {fileID: 1997116868929532, guid: c6c1aee79b0b9774b8fd6a864dd7545d, type: 2}
-  shotPower: 100
-  spawner: {fileID: 918032029}
-  newBullet: {fileID: 1997116868929532, guid: c6c1aee79b0b9774b8fd6a864dd7545d, type: 2}
 --- !u!1 &124013154
 GameObject:
   m_ObjectHideFlags: 0
@@ -291,11 +267,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
---- !u!4 &918032029 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4609358223516648, guid: 695c1c5e2f584364a8e2f7ae31261e98,
-    type: 2}
-  m_PrefabInternal: {fileID: 1106420720}
 --- !u!1 &1083238914
 GameObject:
   m_ObjectHideFlags: 0
@@ -424,7 +395,6 @@ Prefab:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 114282587417725854, guid: 695c1c5e2f584364a8e2f7ae31261e98, type: 2}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 695c1c5e2f584364a8e2f7ae31261e98, type: 2}
   m_IsPrefabAsset: 0
