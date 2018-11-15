@@ -44,8 +44,8 @@ public class TimeControler : MonoBehaviour
         //STRZELANIE
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            newBullet = Instantiate(bullet, spawner.position, transform.rotation);
-            newBullet.GetComponent<Rigidbody>().AddForce(Vector3.forward * shotPower);
+            newBullet = Instantiate(bullet, spawner.position, spawner.transform.rotation);
+            newBullet.GetComponent<Rigidbody>().AddForce(spawner.transform.forward * shotPower);
         }
 
         // TEST DZIAŁANIA
