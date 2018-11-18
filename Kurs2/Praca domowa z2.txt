@@ -1,0 +1,3 @@
+- hp gracza(wyswietlanie hp gracza jako text)
++ opcjonalnie (*text + slider (UI->slider))
+- czołgi kamikadze(Czołgi wpadajace na nas odbierają nam HP)
